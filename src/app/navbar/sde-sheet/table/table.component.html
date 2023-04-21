@@ -28,9 +28,9 @@
                     <th>{{element.data.linkHeading_2}}</th>
                 </tr>
                 <tr *ngFor="let item of element.data.tableRows">
-                    <td>{{item.problmeHeading}}</td>
-                    <td>{{item.link_1}}</td>
-                    <td>{{item.link_2}}</td>
+                    <td>{{item.problemName}}</td>
+                    <td><a href={{item.link_1}}>Link 1</a></td>
+                    <td><a href={{item.link_2}}>Link 2</a></td>
                 </tr>
             </table>
         </div>
